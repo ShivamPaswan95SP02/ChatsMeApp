@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:id="@+id/profile_images"
+        android:layout_marginLeft="5dp"
+        android:padding="5dp"
+        android:src="@drawable/avatar3"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/userNameList"
+            android:padding="5dp"
+            android:paddingBottom="5dp"
+            android:text="Shivam Paswan"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lastMessage"
+            android:padding="5dp"
+            android:paddingBottom="5dp"
+            android:text="Last message"
+            android:textColor="@color/purple_700"
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

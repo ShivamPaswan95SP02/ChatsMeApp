@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "9684937318",
+    "firebase_url": "https://chatsme-31e6b-default-rtdb.firebaseio.com",
+    "project_id": "chatsme-31e6b",
+    "storage_bucket": "chatsme-31e6b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9684937318:android:79b31e1f76058be2eb1ba7",
+        "android_client_info": {
+          "package_name": "com.example.chatsmeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9684937318-43pq3caofvb7hr2lv3a3bj8n61h8me6q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chatsmeapp",
+            "certificate_hash": "347597d04b8c9340fca3b6b26ac5f957d268c22b"
+          }
+        },
+        {
+          "client_id": "9684937318-d5gv1lt49f8i4vgu1fllpn7ckb0trg3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKJ_OXmgHxd-LTB-4amy6QD7MZSPWLQXw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "9684937318-d5gv1lt49f8i4vgu1fllpn7ckb0trg3j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
